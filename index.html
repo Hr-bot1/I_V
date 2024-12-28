@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Video Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet"> <!-- Nosifer font -->
+</head>
+<body>
+    <div class="container">
+        <div class="warning-text">Join OUR Channel ⚠️</div>
+        <h1>Md HR`s Y.-V</h1>
+        <form id="videoForm">
+            <input type="text" id="videoUrl" name="videoUrl" placeholder="Enter YouTube Video URL" required>
+            <button type="submit">Submit URL</button>
+        </form>
+    </div>
+
+    <!-- YouTube Video Players -->
+    <div id="videoContainer" class="video-container">
+        <!-- Three YouTube players will be added here dynamically -->
+    </div>
+
+    <!-- Telegram FAB icon -->
+    <a href="https://t.me/universe_teach" class="fab" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram" style="width: 30px; height: 30px;">
+        <div class="fab-text">Join Us</div>
+    </a>
+
+    <script src="app.js"></script>
+</body>
+</html>
